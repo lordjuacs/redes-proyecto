@@ -40,7 +40,9 @@ for i in range(len(data)):
     print(CRC1(data, divisor, i))
 data = "100100"
 divisor = "1101"
+dataError = "101101"
+print("Tests del docs")
+print(CRC2(data, divisor, dataError))
 dataError = "111110"
-print("Test donde decide incorrectamente")
 print(CRC2(data, divisor, dataError))
 print("\n----------------------------")

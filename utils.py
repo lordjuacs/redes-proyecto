@@ -58,6 +58,7 @@ def calcParityLRC(v):
 def displayPretty(v, lrc):
     for i in v:
         print(i)
+    print("LRC: ", end="")
     print("".join(lrc).strip())
     print()
 
